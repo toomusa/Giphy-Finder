@@ -9,9 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather&display=swap">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
-    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 
   <title>Document</title>
 </head>
@@ -26,15 +24,35 @@
     </div>
   
     <div class="row">
-      <div class="col-sm-3 col-xs-1 col-md-4" id="spacer">
+      <div class="col-sm-2 col-xs-1 col-md-2" id="spacer">
         <!-- left-side spacer -->
       </div>
 
-      <div class="col-sm-6 col-xs-10 col-md-4" id="main">
+      <div class="col-sm-8 col-xs-10 col-md-8" id="main">
         <!-- main content area -->
-      </div>
 
-      <div class="col-sm-3 col-xs-1 col-md-4" id="spacer">
+        <div class="row">
+          <div class="col-sm-12 col-xs-12 col-md-12" id="search-terms">
+            <!-- search buttons -->
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 col-xs-12 col-md-12" id="user-input">
+            <!-- user input area -->
+            <form>
+              <input type="text" id="user-term">
+              <button type="submit" id="submit-search">Submit</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="row" id="giphy-cards">
+          <!-- giphy cards print area -->
+        </div>
+    </div>
+
+      <div class="col-sm-2 col-xs-1 col-md-2" id="spacer">
         <!-- right-side spacer -->
       </div>
     </div>
